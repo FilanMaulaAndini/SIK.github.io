@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
+  <meta name="author" content="Creative Tim">
+  <title>Sistem Informasi Kependudukan</title>
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/img/brand/favicon.png" type="image/png">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  <!-- Icons -->
+  <link rel="stylesheet" href="../assets/vendor/nucleo/css/nucleo.css" type="text/css">
+  <link rel="stylesheet" href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+  <!-- Argon CSS -->
+  <link rel="stylesheet" href="../assets/css/argon.css?v=1.2.0" type="text/css">
+</head>
+
+<body>
+  <!-- Sidenav -->
+  <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+    <div class="scrollbar-inner">
+      <!-- Brand -->
+      <div class="sidenav-header  align-items-center">
+        <a class="navbar-brand" href="javascript:void(0)">
+          <img src="../assets/img/brand/logo.png" class="navbar-brand-img" alt="...">
+        </a>
+      </div>
+      <div class="navbar-inner">
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+          <!-- Nav items -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="datakependudukan.html">
+                <i class="ni ni-single-02 text-primary"></i>
+                <span class="nav-link-text">Data Kependudukan</span>
+              </a>
+            </li>
+            <li class="nav-item"> 
+              <div class="accordion" id="accordionGroup">
+                  <a class="nav-link active" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <i class="ni ni-tv-2 text-primary"></i>
+                    <span class="nav-link-text">Surat Permohonan</span>
+                  </a> 
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionGroup">
+                    <div class="card-body">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratketeranganlahir.html">
+                            <span>Surat Keterangan Lahir</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratketeranganmenikah.html">
+                            <span class="nav-link-text">Surat Keterangan Menikah</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratpengantarskck.html">
+                            <span class="nav-link-text">Surat Pengantar SKCK</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratketeranganwali.html">
+                            <span class="nav-link-text">Surat Keterangan Wali</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratketeranganbelummenikah.html">
+                            <span class="nav-link-text">Surat Keterangan Belum Menikah</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratketeranganjandaduda.html">
+                            <span class="nav-link-text">Surat Keterangan Janda/Duda</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratketerangantidakmampu.html">
+                            <span class="nav-link-text">Surat Keterangan Tidak Mampu</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratpermohonanktp.html">
+                            <span class="nav-link-text">Surat Permohonan KTP</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="suratpermohonankk.html">
+                            <span class="nav-link-text">Surat Permohonan KK</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratpermohonanaktakelahiran.html">
+                            <span class="nav-link-text">Surat Permohonan Akta Kelahiran</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="suratketerangankematian.html">
+                            <span class="nav-link-text">Surat Keterangan Kematian</span>
+                          </a>
+                        </li>
+                    </ul>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ringkasandatapenduduk.html">
+                <i class="ni ni-single-02 text-yellow"></i>
+                <span class="nav-link-text">Ringkasan Data Penduduk</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="informasidesa.html">
+                <i class="ni ni-tv-2 text-default"></i>
+                <span class="nav-link-text">Informasi Desa</span>
+              </a>
+            </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Main content -->
+  <div class="main-content" id="panel">
+    <!-- Header -->
+    <!-- Header -->
+    <div class="header bg-primary pb-6">
+      <div class="container-fluid">
+        <div class="header-body">
+          <div class="row align-items-center py-4">
+            <div class="col-lg-6 col-7">  
+            </div>
+            <div class="col-lg-6 col-5 text-right">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--6">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header border-0">
+              <h3 class="mb-0">Lihat Surat Permohonan KK (KK Baru)</h3>
+            </div>    
+            <!-- Card footer -->
+            <div class="card-footer py-4">
+              <div class="table-responsive">
+                <table class="table align-items-center table-flush">
+                  <tbody class="list">
+                    <tr>
+                      <th scope="row">
+                        <div class="media align-items-center">
+                          <a href="#" class="avatar rounded-circle mr-3">
+                            <img alt="Image placeholder" src="../assets/img/brand/favicon.png">
+                          </a>
+                          <div class="media-body">
+                            <span class="name mb-0 text-sm">NIK</span>
+                            <br><span class="name mb-0 text-sm">Nama Lengkap</span>
+                          </div>
+                        </div>
+                      </th>
+                      <td class="text-right">
+                        <a class="mb-0 text-sm  btn btn-primary my-2" href="suratpermohonanktp.html">Cetak</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- Page content -->
+      <div class="row">
+        <div class="col">
+          <div class="card">    
+            <!-- Card footer -->
+            <div class="card-footer py-4">
+              <div class="table-responsive">
+                <form>
+                  <div class="pl-lg-2">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-nokklama">Nomor KK Lama</label>
+                          <input type="number" id="input-nokklama" class="form-control" disabled value="0000000000000000">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-niklama">NIK Kepala Keluarga Lama</label>
+                          <input type="number" id="input-niklama" class="form-control" disabled value="0000000000000000">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <label class="form-control-label" for="input-alasan">Alasan Permohonan</label>
+                        <input type="text" id="input-alasan" class="form-control" disabled value="Alasan Menumpang KK">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <label class="form-control-label" for="input-jumlah">Jumlah Anggota Keluarga Pengikut</label>
+                        <input type="number" id="input-alasan" class="form-control" disabled value="1">
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="my-4" />
+                  <h6 class="heading-small text-muted mb-4">Daftar Anggota Keluarga Pemohon</h6>
+                  <div class="pl-lg-4">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-nama">Nama Lengkap</label>
+                          <input type="text" id="input-nama" class="form-control" disabled value="Nama Lengkap">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-jk">Jenis Kelamin</label>
+                          <input type="text" id="input-jk" class="form-control" disabled value="Laki-laki/Perempuan">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-tempatlahir">Tempat Lahir</label>
+                          <input type="text" id="input-tempatlahir" class="form-control" disabled value="Tempat Lahir">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-tanggallahir">Tanggal Lahir</label>
+                          <input type="date" id="input-tanggallahir" class="form-control" disabled value="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-agama">Agama</label>
+                          <input type="text" id="input-agama" class="form-control" disabled value="Agama">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-pendidikan">Pendidikan Terakhir</label>
+                          <input type="text" id="input-pendidikan" class="form-control" disabled value="Pendidikan Terakhir">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-pekerjaan">Pekerjaan</label>
+                          <input type="text" id="input-pekerjaan" class="form-control" disabled value="Pekerjaan">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-status">Status Kawin</label>
+                          <input type="text" id="input-status" class="form-control" disabled value="Status Kawin">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-sdhk">Status Hubungan Dalam Keluarga</label>
+                          <input type="text" id="input-sdhk" class="form-control" disabled value="Status Hubungan Dalam Keluarga">
+                        </div>
+                      </div>
+                    </div>
+                    <h6 class="heading-small text-muted mb-4">Dokumen Imigrasi</h6>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-imigrasi1">No. Paspor</label>
+                          <input type="number" id="input-imigrasi1" class="form-control" disabled value="0000000">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-imigrasi2">KITAS/KIT AP</label>
+                          <input type="number" id="input-imigrasi2" class="form-control" disabled value="0000000">
+                        </div>
+                      </div>
+                    </div>          
+                    <h6 class="heading-small text-muted mb-4">Nama Orang Tua</h6>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-ayah">Nama Ayah</label>
+                          <input type="text" id="input-ayah" class="form-control" disabled value="Nama Ayah">
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label" for="input-ibu">Nama Ibu</label>
+                          <input type="text" id="input-ibu" class="form-control" disabled value="Nama Ibu">
+                        </div>
+                      </div>
+                    </div>               
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+  <!-- Argon Scripts -->
+  <!-- Core -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/js-cookie/js.cookie.js"></script>
+  <script src="../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+  <script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+  <!-- Argon JS -->
+  <script src="../assets/js/argon.js?v=1.2.0"></script>
+</body>
+
+</html>
